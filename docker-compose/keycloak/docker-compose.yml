@@ -1,5 +1,6 @@
+version: "3"
 services:
-  auth:
+  keycloak-auth:
     image: quay.io/keycloak/keycloak
     ports:
       - "8080:8080"
